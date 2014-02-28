@@ -1,11 +1,15 @@
-﻿using System;
+﻿/*
+ * Copyright (c) 2014 Håkan Edling
+ *
+ * See the file LICENSE for copying permission.
+ */
+
+using System;
 using System.Configuration;
 using System.IO;
-
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Auth;
 using Microsoft.WindowsAzure.Storage.Blob;
-
 using Piranha.IO;
 
 namespace Piranha.Azure.IO

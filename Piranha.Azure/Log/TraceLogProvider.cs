@@ -1,11 +1,12 @@
-﻿using Microsoft.WindowsAzure.Storage;
-using Microsoft.WindowsAzure.Storage.Blob;
+﻿/*
+ * Copyright (c) 2014 Håkan Edling
+ *
+ * See the file LICENSE for copying permission.
+ */
+
 using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
 using Piranha.Log;
 
 namespace Piranha.Azure.Log
